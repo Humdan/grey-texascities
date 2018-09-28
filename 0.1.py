@@ -5,7 +5,6 @@ import pathlib
 
 file1 = "texas-cities.csv"
 file2 = "cities-to-county.csv"
-savename = "maxPlace.csv" #Change to desired file name
 
 #Assigns the path ; change to relative path so it can be run anywhere
 root = os.path.join(os.path.join(os.path.expanduser('~')), '/Users/h/documents/dev/_prj/grey/resources/')

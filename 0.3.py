@@ -4,7 +4,6 @@ import pandas as pd
 import csv
 
 
-# IMPLEMENTING PANDAS LIBRARY
 
 
 df = pd.read_csv('resources/texas-cities.csv', index_col=None)
