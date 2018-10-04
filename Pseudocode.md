@@ -27,7 +27,7 @@ Slice last word from remaining 'name' col as 'type'
 Group by 'type'
 type.typeName.max() + print corresponding cityName
 
-return [year & cityName] + store to largestOfYear[]
+return [year, cityName, townName, villageName] x8
 	repeat for all years
 
 
@@ -43,7 +43,24 @@ return cityName
 
 3) Which county had the most population in each year?
 -> [year, countyName] x8
-index all populations in currentYear
+Get county DF
+Split cityname column again
+Add cities data to county DF
+	
+	OR iloc[0] (first word) in 'name' list to find city name
+	match city name to 'City' col in county DF
+	-> countyCitySorted[]
+
+Group by 'COUNTY'
+
+Apply
+	Get sum of each group per year as a new dataframe countyPop[]
+	get Max in each YEAR column of each grouped dataframe 
+	print result repeat for next year x8
+
+County , cityname, 
+
+
 calculate max ; store to var
 reference cityName
 lookup cityName in counties.csv
