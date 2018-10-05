@@ -34,9 +34,11 @@ double click 'run.sh'
 OR from terminal:
 ./run.sh
 
-OR run individual files
+OR run python file
 
-python <filename>.py
+python main.py
+
+
 
 
 _____________________________________________________________________
@@ -56,4 +58,10 @@ For loop to reiterate the max() function from each group for every year
 More Pandas videos and a tutorial
 
 0.3 This approach is by far the most elegant one where it simply manipulates dataframes, groups them, and applies arithmetic.  This approach will cover most other functions to derive the appropriate dataframes for each operation.. if there's time left..
+
+0.4 I don't want to talk about it
+
+0.5 Final version implementing pandas library, lambda functions, and dataframe merges
+This approach is far more modular than my previous attempts and allows for a list of any length to be added.
+Since the group functions only apply to a row of cities from row state, this indicates its also able to accept lists from multiple states in the same format.
 
