@@ -64,4 +64,5 @@ More Pandas videos and a tutorial
 0.5 Final version implementing pandas library, lambda functions, and dataframe merges
 This approach is far more modular than my previous attempts and allows for a list of any length to be added.
 Since the group functions only apply to a row of cities from row state, this indicates its also able to accept lists from multiple states in the same format.
+Todo:   Clean up output, Make each function independently callable, setup bash menu, connect mongo test data sets
 
