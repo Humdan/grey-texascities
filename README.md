@@ -2,7 +2,6 @@ Texas Cities Data Ingestor
 Humdan Bakhshi
 Sept 26,2018
 
-Grey Inc - Interview Exam
 
 Criteria:
 All questions must be answered programmatically
